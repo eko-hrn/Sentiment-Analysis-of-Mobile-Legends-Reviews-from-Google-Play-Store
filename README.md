@@ -23,6 +23,15 @@ Despite this, positive sentiment still appears in a notable portion of the revie
 
 Neutral reviews generally consist of descriptive or less opinionated statements, reflecting user feedback that does not strongly express positive or negative emotions.
 
+## Dataset
+
+The dataset is not included in this repository due to size limitations.  
+To generate the dataset, run the following command:
+
+python scraping.py
+
+This script will scrape user reviews of Mobile Legends from the Google Play Store and save them into a CSV file for analysis.
+
 ## Tools
 Python, Pandas, Matplotlib, NLTK, Sastrawi, WordCloud
 
